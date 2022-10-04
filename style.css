@@ -1,0 +1,96 @@
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(to right, #478a49 0%, #4d7940 100%);
+    margin-block-end: auto;
+    color: black;
+    text-align: center;
+}
+.AGRO{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 20px;
+    color: rgb(0, 0, 0); 
+    gap: 50px;   
+  
+}
+
+.escola{
+    font-size: 32px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: center;
+    justify-content: right; 
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 28px;
+    border-top: 0.4px solid rgb(250, 244, 246);
+    border-bottom: 0.4px solid rgb(204, 207, 211);;
+    color: aliceblue;
+   gap: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+    
+}
+.imagem{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    margin-left: 200px;
+    box-shadow: 5px 5px rgb(91, 216, 80), 10px 10px rgb(56, 134, 89), 15px 15px green;
+}
+.imagem1{
+    box-shadow: 5px 5px rgb(91, 216, 80), 10px 10px rgb(56, 134, 89), 15px 15px green;
+}
+.para{
+    margin: 20px;
+}
+.rodape{
+    display: block;
+    margin: 0 auto;
+    color: rgb(172, 171, 169);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.item-botao:hover{ 
+    background-color: rgb(247, 247, 247); 
+    border-radius: 20px;
+    margin: 5px;  
+    color: antiquewhite;
+    margin: 0 auto;
+    
+}
+.texto{
+    align-items: flex-start;
+    width: 950px;
+    height: 250px;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-left: 50px;
+    color: rgb(2, 2, 2); text-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: 5px 5px rgb(91, 216, 80), 10px 10px rgb(56, 134, 89), 15px 15px green;
+    
+}    
+#botao{
+   
+    justify-content: space-around;
+    color: rgb(14, 14, 12);
+    
+}
